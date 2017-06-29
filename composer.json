@@ -1,0 +1,15 @@
+{
+    "name": "chinachaoer/composer_demo",
+    "description": "composer demo",
+    "type": "project",
+    "require": {
+        "houdunwang/code": "^1.0"
+    },
+    "license": "MIT",
+    "autoload":{
+        "psr-4":{
+            "Controller\\":"Controller",
+            "web\\":"web"
+        }
+    }
+}
